@@ -102,6 +102,7 @@ class PostCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
         ),
         elevation: 5,
+        color: Colors.white,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -166,7 +167,7 @@ class PostCard extends StatelessWidget {
                       Chip(
                         label: Text(category),
                         backgroundColor:
-                        const Color(0xFF26247B).withOpacity(0.1),
+                        Colors.white,
                         labelStyle: const TextStyle(
                           fontSize: 12,
                           color: Color(0xFF26247B),
