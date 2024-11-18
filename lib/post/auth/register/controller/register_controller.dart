@@ -13,7 +13,6 @@ class RegisterController extends GetxController {
   var profileImagePath = ''.obs;
   var loadingRegister = false.obs;
   var _registerRepository = RegisterRepository();
-  var userRequest = RegisterController();
 
   Future<void> register() async {
     // Check if all fields are filled
